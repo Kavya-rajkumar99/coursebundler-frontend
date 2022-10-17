@@ -67,7 +67,7 @@ const Subscribe = ({user}) => {
         <Box p="4">
          <VStack textAlign={"center"} px="8" mt="4" spacing="8" >
           <Text fontFamily={"cursive"}>Join pro pack and get access to all content</Text>
-          <Heading size="md">₹299 Only</Heading>
+          <Heading size="md">₹399 Only</Heading>
          </VStack>
          <Button my="8" width="full" colorScheme={"yellow"} isLoading={isLoading} onClick={subscriptionHandler}>Buy Now</Button>
         </Box>
